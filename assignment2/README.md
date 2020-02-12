@@ -119,11 +119,32 @@ out = x
 
 [这篇](https://www.cnblogs.com/shine-lee/p/9932226.html)有卷积运算的详细解释
 
+然后`cnn.py`写的就很起劲
 
+然后卡在了overfit small_data上，我傻了
+
+wq: 学习率太大了，调之，好了，牛逼
 
 
 
 ## PyTorch / TensorFlow on CIFAR-10
+
+
+`if you choose to use that notebook`既然如此我就偷懒了，tf以后用到再说
+
+pytorch 共有三个level的api
+
+| API           | Flexibility | Convenience |
+|---------------|-------------|-------------|
+| Barebone      | High        | Low         |
+| `nn.Module`     | High        | Medium      |
+| `nn.Sequential` | Low         | High        |
+
+
+似乎平常见到的最多的是 Module level的，舒服，我会了.jpg
+
+最后一个是CIFAR-10 challeage, `model = models.resnet18(pretrained=True)`哈哈哈哈哈
+
 
 
 
