@@ -3,3 +3,19 @@
 assignment1/password_id.ipynb
 assignment1/zml/
 
+toy/
+assignment2/.ipynb_checkpoints/
+assignment1/knn_wxy.ipynb
+assignment2/.ipynb_checkpoints/FullyConnectedNets-checkpoint.ipynb
+assignment3/.ipynb_checkpoints
+
+
+assignment3/.ipynb_checkpoints
+
+
+*.ipynb_checkpoints
+assignment3/cs231n/datasets/coco_captioning
+
+*.npz
+*.pyx
+*.pyc
